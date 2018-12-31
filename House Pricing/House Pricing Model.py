@@ -157,7 +157,7 @@ def GeneticAlgorithm(initial_results, XGB_df ,iterations = 100, top_result_perce
 
 
     # First, get the number of random elements for mutations in the algorithm
-    random_elements = int(initial_results.shape[0]*0.3)
+    random_elements = int(initial_results.shape[0]*top_result_percentage)
 
     # Now get those elements for each hyperparameter
 
