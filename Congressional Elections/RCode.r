@@ -28,7 +28,7 @@ NewData = subset(ElectionsData, sample == FALSE)
 ## Logistic Regression ##
 
 ##Matrices of the independent variables in the regression, split into training and test set
-respectively ##
+## respectively 
 
 LogTrainingInput <- as.matrix(sqldf('SELECT MoneyRaised, MoneySpent, OpponentRaised,
 OpponentSpent, Incumbency FROM OldData'))
